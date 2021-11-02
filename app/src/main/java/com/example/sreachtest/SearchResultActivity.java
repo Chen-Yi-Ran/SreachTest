@@ -29,7 +29,6 @@ public class SearchResultActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_result);
         initData();
-
     }
 
     private void initData()
