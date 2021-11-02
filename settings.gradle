@@ -1,0 +1,2 @@
+rootProject.name = "SreachTest"
+include ':app'

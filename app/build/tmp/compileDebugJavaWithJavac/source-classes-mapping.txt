@@ -1,0 +1,36 @@
+com/example/sreachtest/TicketDetailActivity.java
+ com.example.sreachtest.TicketDetailActivity
+com/example/sreachtest/MainActivity.java
+ com.example.sreachtest.MainActivity
+com/example/sreachtest/bean/Ticket.java
+ com.example.sreachtest.bean.Ticket
+com/example/sreachtest/BuildConfig.java
+ com.example.sreachtest.BuildConfig
+com/example/sreachtest/bean/SearchRecord.java
+ com.example.sreachtest.bean.SearchRecord
+com/example/sreachtest/helper/DBHelper.java
+ com.example.sreachtest.helper.DBHelper
+com/example/sreachtest/adapter/TicketAdapterRV.java
+ com.example.sreachtest.adapter.TicketAdapterRV
+ com.example.sreachtest.adapter.TicketAdapterRV$1
+ com.example.sreachtest.adapter.TicketAdapterRV$OnItemClickListener
+ com.example.sreachtest.adapter.TicketAdapterRV$ViewHolder
+com/example/sreachtest/adapter/SRAdapterForRV.java
+ com.example.sreachtest.adapter.SRAdapterForRV
+ com.example.sreachtest.adapter.SRAdapterForRV$1
+ com.example.sreachtest.adapter.SRAdapterForRV$OnItemClickListener
+ com.example.sreachtest.adapter.SRAdapterForRV$ViewHolder
+com/example/sreachtest/bean/SearchRecordLab.java
+ com.example.sreachtest.bean.SearchRecordLab
+com/example/sreachtest/bean/TicketLab.java
+ com.example.sreachtest.bean.TicketLab
+com/example/sreachtest/SearchResultActivity.java
+ com.example.sreachtest.SearchResultActivity
+ com.example.sreachtest.SearchResultActivity$1
+com/example/sreachtest/SearchActivity.java
+ com.example.sreachtest.SearchActivity
+ com.example.sreachtest.SearchActivity$1
+ com.example.sreachtest.SearchActivity$1$1
+ com.example.sreachtest.SearchActivity$1$2
+ com.example.sreachtest.SearchActivity$2
+ com.example.sreachtest.SearchActivity$3

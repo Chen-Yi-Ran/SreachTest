@@ -1,0 +1,4 @@
+#Mon Aug 30 08:43:46 CST 2021
+base.0=D\:\\AndroidProject\\SreachTest\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

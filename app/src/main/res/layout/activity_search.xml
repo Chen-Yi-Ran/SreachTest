@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/bg_rrc_filled_primarry_dark_radius25_left_right"
+        >
+        <ImageView
+            android:id="@+id/widget_search_left_icon_iv"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_margin="4dp"
+            app:srcCompat="@drawable/icon_search"
+            tools:ignore="VectorDrawableCompat" />
+<!--completionThreshold表示设置几个字开始搜索
+dropDownAnchor表示显示在哪个View下
+imeOptions手机输入键盘右下角返回按钮的动作指令，此处为搜索
+-->
+        <AutoCompleteTextView
+            android:id="@+id/widget_search_ac_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:dropDownAnchor="@id/widget_search_view"
+            android:completionThreshold="2"
+            android:background="@null"
+            android:hint="搜索"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:imeOptions="actionSearch"
+            />
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:id="@+id/widget_search_right_icon_iv"
+            android:layout_margin="4dp"
+            android:src="@drawable/voice"
+            />
+    </LinearLayout>
+    <!--一条隐形线-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/widget_search_view"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:visibility="invisible"
+        />
+    <RelativeLayout
+        android:id="@+id/widget_search_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp">
+        <TextView
+            android:id="@+id/widget_search_history_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentTop="true"
+            android:text="历史记录"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/fc_light_dark"/>
+        <ImageView
+            android:id="@+id/widget_search_empty_iv"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/widget_search_history_tv"
+            android:src="@drawable/ic_empty_btn"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/widget_search_history_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/widget_search_empty_iv" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+

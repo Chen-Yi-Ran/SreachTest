@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#4b52c4</color>
+    <color name="colorAccent">#03DAC5</color>
+    <!-- 圆角边框颜色 -->
+    <color name="sw_rrc_border_blue">#4B52C4</color>
+    <!--字体颜色-->
+    <color name="fc_light_grey">#707070</color>
+    <color name="fc_light_dark">#2c2c2c</color>
+    <color name="fc_white">#ffffff</color>
+    <color name="fc_blue">#4b52c4</color>
+    <color name="fc_light_blue">#108ee9</color>
+    <color name="fc_red">#F81C1C</color>
+
+    <color name="background_color_white">#ffffff</color>
+    <color name="background_color_blue">#4b52c4</color>
+    <color name="background_color_light_grey">#707070</color>
+    <color name="background_color_light_blue">#108ee9</color>
+    <color name="background_color_shade">#1a000000</color>
+    <color name="background_color_shade3">#33000000</color>
+    <color name="background_color_shade2">#1affffff</color>
+    <color name="background_color_shade4">#1a108ee9</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
