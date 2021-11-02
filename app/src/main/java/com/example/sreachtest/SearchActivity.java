@@ -40,7 +40,8 @@ public class SearchActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
-     //   LitePal.initialize(this);//初始化数据库，也可以在项目清单中写*/
+     //LitePal.initialize(this);//初始化数据库，也可以在项目清单中写*/
+        //初始化控件
         initElement();
         init();
         //当点击删除按钮时
